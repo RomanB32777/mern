@@ -13,7 +13,7 @@ app.use(express.json({
 }))
 //  1:34:00
 
-// регистрация роутеров, которые по-разному будут отработывать запросы 
+// регистрация роутеров,которые по-разному будут отработывать запросы 
 app.use('/api/auth', require('./routes/authRouter'))
 app.use('/api/post', require('./routes/postRouter'))
 
