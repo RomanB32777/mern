@@ -1,0 +1,6 @@
+{
+    "port": 5000, 
+    "mongoUrl": "mongodb+srv://roman:12345@cluster0-fcw9t.azure.mongodb.net/app?retryWrites=true&w=majority",
+    "jwtSecret": "react lol",
+    "baseUrl": "http://localhost:5000"
+}
